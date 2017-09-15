@@ -1,0 +1,36 @@
+{
+  "name": "example-server",
+  "version": "1.0.0",
+  "description": "This is an example of a basic HTTP API server.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node test/index.js && standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Interlincx/example-server.git"
+  },
+  "keywords": [],
+  "author": "David Guttman <david@guttman.io> (http://davidguttman.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Interlincx/example-server/issues"
+  },
+  "homepage": "https://github.com/Interlincx/example-server#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "servertest": "^1.2.1",
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "healthpoint": "^1.0.0",
+    "productionize": "^4.0.0"
+  }
+}
