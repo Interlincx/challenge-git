@@ -13,7 +13,7 @@
     "test": "nyc node test/index.js && npm run deps && standard",
     "deps": "npm run deps-missing && npm run deps-extra",
     "deps-missing": "dependency-check --no-dev .",
-    "deps-extra": "dependency-check --no-dev --extra . lib/models/things.js"
+    "deps-extra": "dependency-check --no-dev --extra ."
   },
   "repository": {
     "type": "git",
