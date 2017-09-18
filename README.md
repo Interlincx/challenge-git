@@ -12,13 +12,13 @@ Includes:
 * [x] `nodemon` for auto-restart in development
 * [x] `nyc` for code coverage
 * [x] `dependency-check` to ensure no missing or extra dependencies
-* [ ] `http-hash-router` for routing
-* [ ] `req-logger` for request logging
+* [x] `http-hash-router` for routing
+* [x] `send-data` for JSON response
+* [x] `req-logger` for request logging
 * [ ] `corsify` for CORS
 * [ ] `authentic-service` and `authify.js` for authentication
 * [ ] `dotenv`, `.env.example`, and `config.js` for env vars
 * [ ] `body` for JSON POST body parsing
-* [ ] `send-data` for JSON response
 * [ ] `pump` for stream piping
 * [ ] endpoint/route callback argument for error handling (with request id)
 * [ ] example `db.js` and `model.js`
