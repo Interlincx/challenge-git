@@ -13,7 +13,7 @@
     "test": "nyc node test/index.js && npm run deps && standard",
     "deps": "npm run deps-missing && npm run deps-extra",
     "deps-missing": "dependency-check --no-dev .",
-    "deps-extra": "dependency-check --no-dev --extra ."
+    "deps-extra": "dependency-check --no-dev --extra . lib/models/things.js"
   },
   "repository": {
     "type": "git",
@@ -36,8 +36,14 @@
   },
   "dependencies": {
     "cuid": "^1.3.8",
+    "dotenv": "^4.0.0",
     "healthpoint": "^1.0.0",
     "http-hash-router": "^1.1.0",
+    "level-sublevel": "^6.6.1",
+    "leveldown": "^1.8.0",
+    "levelup": "^1.3.9",
+    "memdown": "^1.3.1",
+    "mongodown": "^1.2.0",
     "productionize": "^4.0.0",
     "req-logger": "^2.0.0",
     "send-data": "^8.0.0"

@@ -15,10 +15,10 @@ Includes:
 * [x] `http-hash-router` for routing
 * [x] `send-data` for JSON response
 * [x] `req-logger` for request logging
+* [x] `dotenv`, `.env.example`, and `config.js` for env vars
+* [x] example `db.js` and `model.js`
 * [ ] `corsify` for CORS
 * [ ] `authentic-service` and `authify.js` for authentication
-* [ ] `dotenv`, `.env.example`, and `config.js` for env vars
 * [ ] `body` for JSON POST body parsing
 * [ ] `pump` for stream piping
 * [ ] endpoint/route callback argument for error handling (with request id)
-* [ ] example `db.js` and `model.js`
