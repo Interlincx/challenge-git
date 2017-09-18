@@ -20,5 +20,5 @@ Includes:
 * [x] `body` for JSON POST body parsing
 * [x] `pump` for stream piping
 * [x] endpoint/route callback argument for error handling (with request id)
-* [ ] `corsify` for CORS
+* [x] `corsify` for CORS
 * [ ] `authentic-service` and `authify.js` for authentication
