@@ -17,8 +17,8 @@ Includes:
 * [x] `req-logger` for request logging
 * [x] `dotenv`, `.env.example`, and `config.js` for env vars
 * [x] example `db.js` and `model.js`
+* [x] `body` for JSON POST body parsing
+* [x] `pump` for stream piping
+* [x] endpoint/route callback argument for error handling (with request id)
 * [ ] `corsify` for CORS
 * [ ] `authentic-service` and `authify.js` for authentication
-* [ ] `body` for JSON POST body parsing
-* [ ] `pump` for stream piping
-* [ ] endpoint/route callback argument for error handling (with request id)
