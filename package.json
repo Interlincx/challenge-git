@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "node test/index.js && standard"
+    "test": "nyc node test/index.js && standard"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/Interlincx/example-server#readme",
   "devDependencies": {
     "nodemon": "^1.12.1",
+    "nyc": "^11.2.1",
     "servertest": "^1.2.1",
     "standard": "^10.0.3",
     "tape": "^4.8.0"
