@@ -10,7 +10,10 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "nyc node test/index.js && standard"
+    "test": "nyc node test/index.js && npm run deps && standard",
+    "deps": "npm run deps-missing && npm run deps-extra",
+    "deps-missing": "dependency-check --no-dev .",
+    "deps-extra": "dependency-check --no-dev --extra ."
   },
   "repository": {
     "type": "git",
@@ -24,6 +27,7 @@
   },
   "homepage": "https://github.com/Interlincx/example-server#readme",
   "devDependencies": {
+    "dependency-check": "^2.9.1",
     "nodemon": "^1.12.1",
     "nyc": "^11.2.1",
     "servertest": "^1.2.1",

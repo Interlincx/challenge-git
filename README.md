@@ -11,6 +11,7 @@ Includes:
 * [x] `servertest` for endpoint testing
 * [x] `nodemon` for auto-restart in development
 * [x] `nyc` for code coverage
+* [x] `dependency-check` to ensure no missing or extra dependencies
 * [ ] `http-hash-router` for routing
 * [ ] `req-logger` for request logging
 * [ ] `corsify` for CORS
@@ -21,4 +22,3 @@ Includes:
 * [ ] `pump` for stream piping
 * [ ] endpoint/route callback argument for error handling (with request id)
 * [ ] example `db.js` and `model.js`
-* [ ] `dependency-check` to ensure no missing or extra dependencies
