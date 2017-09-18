@@ -21,4 +21,4 @@ Includes:
 * [x] `pump` for stream piping
 * [x] endpoint/route callback argument for error handling (with request id)
 * [x] `corsify` for CORS
-* [ ] `authentic-service` and `authify.js` for authentication
+* [x] `authentic-service` and `authify.js` for authentication
